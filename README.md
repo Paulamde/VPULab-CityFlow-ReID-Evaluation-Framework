@@ -4,12 +4,20 @@
 
 Python evaluation framework described in our paper (https://link.springer.com/article/10.1007/s11042-023-14511-0)
 ### Setup
+**Requirements**
 
-*Clone repository*
+The repository has been tested in the following software.
+* Ubuntu 18.04
+* Python 3.7
+* Anaconda
+
+
+**Clone repository**
 ```
 $ git clone https://github.com/Paulamde/VPULab-CityFlow-ReID-Evaluation-Framework.git
 ```
-*Anaconda environment*
+**Anaconda environment**
+
 To create and setup the Anaconda Enviroment, open a terminal window in the repository folder and type:
 
 ```
@@ -17,13 +25,14 @@ $ conda env create -f envEvCity.yml
 $ conda activate EvCity
 ```
 ### Running
-*Dataset*
+**Dataset**
 
-This github provides the Ground truth annotations of the CityFlow-ReID test set. The dataset can be downloaded at https://www.aicitychallenge.org/2020-data-and-evaluation/
+This github provides the Ground truth annotations of the CityFlow-ReID test set. The entire dataset can be downloaded at https://www.aicitychallenge.org/2020-data-and-evaluation/.
 
 
-*Run evaluation code*
-To run evaluation code you need your track2.txt file obtained with your ReID system. To test the code, we provide a sample track2.txt
+**Run evaluation code**
+
+To run the evaluation code you need your track2.txt file obtained with your ReID system. To test the code, we provide a sample track2.txt
 
 ```
 $ python Evaluation_CityFlow.py  
