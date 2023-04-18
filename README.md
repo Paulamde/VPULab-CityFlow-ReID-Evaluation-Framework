@@ -53,3 +53,6 @@ If you find this code and work useful, please consider citing:
   publisher={Springer}
 }
 ```
+
+# Acknowledgment
+This work is part of the preliminary tasks related to the Harvesting Visual Data (HVD) project (PID2021-125051OB-I00) funded by the Ministerio de Ciencia e Innovación of the Spanish Government.
